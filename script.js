@@ -8,49 +8,15 @@ const collections = [
 
 const products = {
     GENTS_SHORT_KURTA: [
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-02.png', code: 'KURTA-02' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-03.png', code: 'KURTA-03' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-04.png', code: 'KURTA-04' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-05.png', code: 'KURTA-05' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-06.png', code: 'KURTA-06' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-07.png', code: 'KURTA-07' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-08.png', code: 'KURTA-08' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-09.png', code: 'KURTA-09' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-10.png', code: 'KURTA-10' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-11.png', code: 'KURTA-11' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-12.png', code: 'KURTA-12' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-13.png', code: 'KURTA-13' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-14.png', code: 'KURTA-14' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-15.png', code: 'KURTA-15' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-16.png', code: 'KURTA-16' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-17.png', code: 'KURTA-17' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-18.png', code: 'KURTA-18' },
-        { img: 'assets/GENTS_SHORT_KURTA/khadi Gents Kurtha-19.png', code: 'KURTA-19' }
     ],
     DESIGNER_BLOUSE: [
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-02.png', code: 'BLOUSE-02' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-03.png', code: 'BLOUSE-03' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-04.png', code: 'BLOUSE-04' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-05.png', code: 'BLOUSE-05' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-06.png', code: 'BLOUSE-06' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-07.png', code: 'BLOUSE-07' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-08.png', code: 'BLOUSE-08' },
-        { img: 'assets/DESIGNER_BLOUSE/DESIGNER BLOUSE-13.png', code: 'BLOUSE-13' }
+   
     ],
     WOMEN_SHORT_TOPS: [],
     PERSONALISED_CUSHION: [
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-02.png', code: 'CUSHION-02' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-03.png', code: 'CUSHION-03' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-04.png', code: 'CUSHION-04' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-05.png', code: 'CUSHION-05' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-06.png', code: 'CUSHION-06' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-07.png', code: 'CUSHION-07' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-08.png', code: 'CUSHION-08' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-09.png', code: 'CUSHION-09' },
-        { img: 'assets/PERSONALISED_CUSHION/CUSHION-10.png', code: 'CUSHION-10' }
+
     ],
     DESIGNER_SLING_BAG: [
-        { img:'assets/designer slingbag/Untitled-1-02 - Copy.png', code:'BAG-01'}
     ]
 };
 
@@ -332,7 +298,7 @@ function renderCartItems() {
 
     if (cart.length > 0) {
         dropdown.querySelector('.checkout-btn').addEventListener('click', () => {
-            window.location.href = 'https://khadi-board-transaction-trackerv1.s3.ap-south-1.amazonaws.com/Login/khadi_Login_User.html';
+            window.location.href = '';
         });
     }
 }
