@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadi - Woven with Heritage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Khadi Logo">
+            </div>
+            <div class="header-right">
+                <button class="login-btn" onclick="window.location.href='https://khadi-board-transaction-trackerv1.s3.ap-south-1.amazonaws.com/Login/khadi_Login_User.html'">cart</button>
+            </div>
+        </header> 
+        
+        <div class="content-wrapper">
+            <!-- Collections -->
+            <section class="collections">
+                <h3>Our Collections</h3>
+                <div class="collection-list vani">
+                    <div class="collection-item selected" data-collection="kurta">
+                        <img src="assets/Collection_images/kurta.jpg" alt="Gents Short Kurta">
+                        <span>Gents Short Kurta</span>
+                    </div>
+                    <div class="collection-item" data-collection="blouse">
+                        <img src="assets/Collection_images/blouse.png" alt="Designer Blouse">
+                        <span>Designer Blouse</span>
+                    </div>
+                     <div class="collection-item" data-collection="tops">
+            <img src="assets/Collection_images/top.png" alt="Women Tops">
+            <span>Women Tops</span>
+        </div>
+                    <div class="collection-item" data-collection="cushion">
+                        <img src="assets/Collection_images/bag.png" alt="Cushion">
+                        <span>Cushion</span>
+                    </div>
+                   <div class="collection-item" data-collection="bag">
+            <img src="assets/Collection_images/bag.png" alt="Sling Bag">
+            <span>Sling Bag</span>
+        </div>
+                </div>
+            </section>
+
+            <!-- Product Grid -->
+            <section class="product-grid" id="product-grid">
+                <!-- Product cards will be rendered here by JavaScript -->
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="full-width-bg footer-bg">
+      <footer class="footer">
+        <span>Partner Company</span>
+        <img src="assets/B-Senz_Logo.png" alt="B-Senz Logo" class="footer-logo">
+      </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
